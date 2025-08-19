@@ -6,7 +6,7 @@ public class StringTest01 {
         String nome2 = "Leonardo";
         nome = nome.concat(" Santana"); // nome += " Santana"
         System.out.println(nome);
-        System.out.println(nome == nome2);
+        System.out.println(nome == nome2); // compara referencias no pool de strings
         String nome3 = new String("Leonardo"); //1 variavel de referencia, 2 objeto do tipo string, 3 uma string no pool de strings
         System.out.println(nome2 == nome3);
         System.out.println(nome2 == nome3.intern());
