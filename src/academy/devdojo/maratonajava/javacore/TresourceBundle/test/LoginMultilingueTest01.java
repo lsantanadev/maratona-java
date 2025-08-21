@@ -5,7 +5,7 @@ import java.awt.*;
 import java.util.Locale;
 import java.util.ResourceBundle;
 
-public class LoginMultilingue {
+public class LoginMultilingueTest01 {
     public static void main(String[] args) {
         // Locale configurado (troque para Locale("pt","BR") para português)
         Locale locale = new Locale("en", "US");
