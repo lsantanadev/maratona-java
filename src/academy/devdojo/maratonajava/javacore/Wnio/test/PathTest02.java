@@ -13,7 +13,7 @@ public class PathTest02 {
             Path pastaDirectory = Files.createDirectory(pastaPath);
         }
         Path subPastaPath = Paths.get("pasta/subpasta/subsubpasta");
-        final Path subPastaDirectory = Files.createDirectories(subPastaPath);
+        Path subPastaDirectory = Files.createDirectories(subPastaPath);
 
         Path filePath = Paths.get(subPastaPath.toString(), "file.txt");
         if (Files.notExists(filePath)) {
