@@ -3,7 +3,6 @@ package academy.devdojo.maratonajava.javacore.Ycollections.test;
 import academy.devdojo.maratonajava.javacore.Ycollections.dominio.Manga;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 public class IteratorTest01 {
