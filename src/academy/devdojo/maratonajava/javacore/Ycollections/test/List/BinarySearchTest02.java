@@ -1,10 +1,9 @@
-package academy.devdojo.maratonajava.javacore.Ycollections.test;
+package academy.devdojo.maratonajava.javacore.Ycollections.test.List;
 
-import academy.devdojo.maratonajava.javacore.Ycollections.dominio.Manga;
+import academy.devdojo.maratonajava.javacore.Ycollections.dominio.List.Manga;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
 
 public class BinarySearchTest02 {

@@ -1,6 +1,6 @@
-package academy.devdojo.maratonajava.javacore.Ycollections.test;
+package academy.devdojo.maratonajava.javacore.Ycollections.test.List;
 
-import academy.devdojo.maratonajava.javacore.Ycollections.dominio.Smartphone;
+import academy.devdojo.maratonajava.javacore.Ycollections.dominio.List.Smartphone;
 
 public class EqualsTest01 {
     public static void main(String[] args) {
