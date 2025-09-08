@@ -3,11 +3,12 @@ package academy.devdojo.maratonajava.javacore.Ycollections.test.List;
 import academy.devdojo.maratonajava.javacore.Ycollections.dominio.List.Manga;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class IteratorTest01 {
     public static void main(String[] args) {
-        List<Manga> mangas = new ArrayList<>(6);
+        List<Manga> mangas = new LinkedList<>();
         mangas.add(new Manga(4L, "Hunter x Hunter", 19.2, 0));
         mangas.add(new Manga(1L, "Pokemon", 5.85, 5));
         mangas.add(new Manga(2L, "Attack on titan", 12.1, 2));
