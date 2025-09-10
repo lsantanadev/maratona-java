@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.Ycollections.dominio.List;
+package academy.devdojo.maratonajava.javacore.Ycollections.dominio;
 
 import java.util.Objects;
 

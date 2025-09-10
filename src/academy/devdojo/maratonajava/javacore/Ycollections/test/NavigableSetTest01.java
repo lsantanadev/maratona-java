@@ -1,7 +1,7 @@
-package academy.devdojo.maratonajava.javacore.Ycollections.test.Set;
+package academy.devdojo.maratonajava.javacore.Ycollections.test;
 
-import academy.devdojo.maratonajava.javacore.Ycollections.dominio.List.Manga;
-import academy.devdojo.maratonajava.javacore.Ycollections.dominio.List.Smartphone;
+import academy.devdojo.maratonajava.javacore.Ycollections.dominio.Manga;
+import academy.devdojo.maratonajava.javacore.Ycollections.dominio.Smartphone;
 
 import java.util.Comparator;
 import java.util.NavigableSet;

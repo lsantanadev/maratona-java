@@ -1,10 +1,9 @@
-package academy.devdojo.maratonajava.javacore.Ycollections.test.Set;
+package academy.devdojo.maratonajava.javacore.Ycollections.test;
 
-import academy.devdojo.maratonajava.javacore.Ycollections.dominio.List.Manga;
+import academy.devdojo.maratonajava.javacore.Ycollections.dominio.Manga;
 
 import java.util.HashSet;
 import java.util.Set;
-import java.util.TreeSet;
 
 public class SetTest01 {
     public static void main(String[] args) {

@@ -1,8 +1,7 @@
-package academy.devdojo.maratonajava.javacore.Ycollections.test.List;
+package academy.devdojo.maratonajava.javacore.Ycollections.test;
 
-import academy.devdojo.maratonajava.javacore.Ycollections.dominio.List.Manga;
+import academy.devdojo.maratonajava.javacore.Ycollections.dominio.Manga;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 

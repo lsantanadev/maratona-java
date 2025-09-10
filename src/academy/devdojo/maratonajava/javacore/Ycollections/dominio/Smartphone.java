@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.Ycollections.dominio.List;
+package academy.devdojo.maratonajava.javacore.Ycollections.dominio;
 
 public class Smartphone {
     private String serialNumber;
