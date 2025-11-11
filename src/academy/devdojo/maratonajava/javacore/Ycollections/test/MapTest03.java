@@ -3,7 +3,6 @@ package academy.devdojo.maratonajava.javacore.Ycollections.test;
 import academy.devdojo.maratonajava.javacore.Ycollections.dominio.Consumidor;
 import academy.devdojo.maratonajava.javacore.Ycollections.dominio.Manga;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -31,7 +30,5 @@ public class MapTest03 {
                 System.out.println("--" + manga.getNome());
             }
         }
-
-
     }
 }
