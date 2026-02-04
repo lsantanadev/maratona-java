@@ -1,0 +1,48 @@
+package academy.devdojo.maratonajava.javacore.Rdates.date;
+
+import java.time.DayOfWeek;
+import java.time.LocalDate;
+import java.time.temporal.ChronoField;
+import java.time.temporal.TemporalAdjusters;
+
+public class TemporalAdjustersTest01 {
+    public static void main(String[] args) {
+        LocalDate now = LocalDate.now();
+        now = now.with(ChronoField.DAY_OF_MONTH, 20);
+        System.out.println(now);
+        System.out.println(now.getDayOfWeek());
+        // IMPRIME A PROXIMA OU O MESMO DIA
+        now = LocalDate.now().with(TemporalAdjusters.nextOrSame(DayOfWeek.WEDNESDAY));
+        System.out.println(now);
+        System.out.println(now.getDayOfWeek());
+
+        // IMPRIME A PROXIMA QUARTA-FEIRA
+        now = LocalDate.now().with(TemporalAdjusters.next(DayOfWeek.WEDNESDAY));
+        System.out.println(now);
+        System.out.println(now.getDayOfWeek());
+
+        //IMPRIME O ULTIMO DIA QUE PASSOU
+        now = LocalDate.now().with(TemporalAdjusters.previous(DayOfWeek.FRIDAY));
+        System.out.println(now);
+        System.out.println(now.getDayOfWeek());
+
+        now = LocalDate.now().with(TemporalAdjusters.firstDayOfMonth());
+        System.out.println(now);
+        System.out.println(now.getDayOfWeek());
+
+        now = LocalDate.now().with(TemporalAdjusters.lastDayOfMonth());
+        System.out.println(now);
+        System.out.println(now.getDayOfWeek());
+
+        now = LocalDate.now().with(TemporalAdjusters.firstDayOfNextYear());
+        System.out.println(now);
+        System.out.println(now.getDayOfWeek());
+
+        now = LocalDate.now().with(TemporalAdjusters.firstDayOfNextMonth());
+        System.out.println(now);
+        System.out.println(now.getDayOfWeek());
+
+
+
+    }
+}
