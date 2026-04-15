@@ -3,8 +3,6 @@ package academy.devdojo.maratonajava.javacore.Zgenerics.exercicio.test;
 import academy.devdojo.maratonajava.javacore.Zgenerics.dominio.Carro;
 import academy.devdojo.maratonajava.javacore.Zgenerics.exercicio.service.Repositorio;
 
-import java.util.List;
-
 public class RepositorioTest {
     public static void main(String[] args) {
         Carro c1 = new Carro("Gol");
