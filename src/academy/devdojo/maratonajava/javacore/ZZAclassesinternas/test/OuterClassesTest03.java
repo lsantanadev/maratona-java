@@ -1,13 +1,13 @@
 package academy.devdojo.maratonajava.javacore.ZZAclassesinternas.test;
 
 public class OuterClassesTest03 {
-    private final String name = "Leonardo";
+    private final String NAME = "Leonardo";
 
     static class Nested {
-        private final String lastName = "Santana";
+        private final String LAST_NAME = "Santana";
 
         void print() {
-            System.out.println(new OuterClassesTest03().name + " " + this.lastName);
+            System.out.println(new OuterClassesTest03().NAME + " " + this.LAST_NAME);
         }
     }
 
