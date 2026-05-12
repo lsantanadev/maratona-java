@@ -77,7 +77,7 @@ public class ExercicioTest01 {
         busca.ifPresent(System.out::println);
 
         Optional<Produto> busca2 = Estoque.buscarPorNome("Celular");
-       // busca2.orElseThrow(IllegalArgumentException::new);
+        // busca2.orElseThrow(IllegalArgumentException::new);
 
         Produto produto = busca2.orElse(new Produto("Celular", 3999.99, "eletronico"));
         System.out.println(produto);
